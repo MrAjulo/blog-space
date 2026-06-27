@@ -20,6 +20,10 @@ const siteConfig: SiteConfig = {
             text: 'Home',
             href: '/'
         },
+         {
+            text: 'About',
+            href: '/About'
+        },
         {
             text: 'Projects',
             href: '/projects'
@@ -87,8 +91,8 @@ const siteConfig: SiteConfig = {
             action: '#'
         }
     },
-    postsPerPage: 10,
-    projectsPerPage: 10
+    ##postsPerPage: 10,
+   ##projectsPerPage: 10
 };
 
 export default siteConfig;
