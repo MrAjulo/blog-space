@@ -67,7 +67,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi There & Welcome to My Safe Space (read Lab)',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        text: "I'm **'Damilola Ajulo**, a User Experience Researcher.\nI'm interested in education, technology, creativity, and how AI can help people learn. \nThis is a personal space where I publish essays, projects and reflections on ideas I'm exploring. \n\nFeel free to reach out to me for any kind of consultancy",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
@@ -81,14 +81,14 @@ const siteConfig: SiteConfig = {
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Dante Newsletter',
+        title: 'Subscribe to byajulo Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         form: {
             action: '#'
         }
     },
-    postsPerPage: 10,
-    projectsPerPage: 10
+    #postsPerPage: 10,
+    #projectsPerPage: 10
 };
 
 export default siteConfig;
